@@ -15,6 +15,8 @@ setup(
     author_email = 'artangelchev@gmail.com',
     url = 'https://github.com/ArtemAngelchev/JsonSniffer.git',
     keywords = ['serialization', 'deserialization', 'json', 'schema', 'validation'], # arbitrary keywords
+    install_requires=['jmespath'],
+    license='MIT',
     classifiers = [
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3.6',
